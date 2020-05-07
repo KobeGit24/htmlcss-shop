@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.products {
+  display: inline-block;
+  position: relative;
+  margin: 20px 0px;
+  border: 1px solid black;
+}
+
+.products:hover {
+  border: 2px solid red;
+}
+
+.sale {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+div .red {
+  background-color: red;
+}
+
+.heart {
+  color: red;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  font-size: 70px;
+  visibility: hidden;
+}
+
+.products:hover .heart {
+  visibility: visible;
+}
